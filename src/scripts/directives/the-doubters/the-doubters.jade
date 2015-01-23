@@ -1,0 +1,47 @@
+p.index-summery Tvivlerne ved ikke, hvad de vil stemme, men vi ved, hvem de er. Her kan du gå på opdagelse i gruppen af tvivlere. Vælg mellem partier, grupper og mandater.
+nav(role="navigation")
+  a.btn(href="#/mandater" ng-class="{'inactive': page != 'mandates'}")
+    span MANDATER
+  a.btn(href="#/grupper/0" ng-class="{'inactive': page != 'groups'}")
+    span GRUPPER
+  a.btn(href="#/partier" ng-class="{'inactive': page != 'parties'}")
+    span PARTIER
+  div.right-menu
+    div.helper(ng-show="page == 'parties'")
+      i.fa.fa-circle
+      span &nbsp; —&nbsp;
+      p tvivler
+    p Periode: &nbsp;
+      strong fra juli 2014 til december 2014
+    button.btn.btn-round(ng-click="showAppInfo=true")
+      span.info
+        i.fa.fa-info
+  app-info(ng-show="showAppInfo")
+    .close(ng-click="showAppInfo=false") &times;
+    div(ng-show="page == 'groups'")
+      p "Tvivlerne" er en række grafiske illustrationer af, hvem tvivlerne er, og hvordan de formentlig vil stemme ved folketingsvalget. I denne grafik kan du gå på opdagelse i, hvad der kendetegner gruppen af tvivlere. For hvert punkt i menuen til venstre, kan du se, hvordan gruppen af tvivlere fordeler sig på de forskellige muligheder. Hvor striberne er meget smalle kommer tallet frem, når du fører musen henover. 
+      p Grafikken bygger på data fra TNS Gallup, der indeholder svar fra 1.787 repræsentativt udvalgte vælgere.
+      p Tvivlerdefinition: I denne grafik er man tvivler, når man ved sidste valg - altså folketingsvalget i 2011 - stemte på et parti, men i dag svarer ved ikke på spørgsmålet; "hvilket parti ville du stemme på, hvis der var folketingsvalg i morgen." Man kan også være en del af tvivlerne i denne grafik, hvis man er førstegangsvælger.
+      p For at sikre en tilstrækkelig kvalitet i de data, der ligger bag grafikkerne, har Gallup fastsat en grænse på minimum 100 respondenter i hver gruppe. Det betyder konkret, at ingen af de tal, der figurerer i grafikken, er baseret på færre end 100 respondenter. Der er dog stadig en statistisk usikkerhed på tallene. For enkelte tal kan denne være på helt op til +/- 7 procent.
+      p Tallene summerer ikke nødvendigvis til 100 procent, da svarmuligheder som "ved ikke" og "ønsker ikke at svare" er fjernet.
+      p For spørgsmål, kommentarer eller andet skriv til research@berlingske.dk
+    div(ng-show="page == 'parties'")
+      p "Tvivlerne" er en række grafiske illustrationer af, hvem tvivlerne er, og hvordan de formentlig vil stemme ved folketingsvalget. I denne grafik illustreres partiernes tilslutning med størrelsen på de farvede cirkler. De små cirkler illustrerer andelen af tvivlere i hvert parti. Begge tal dukker op, hvis du fører musen henover cirklerne.
+      p Kristendemokraterne er ikke med i opgørelsen, da det ikke har været muligt for Gallup at samle tilstrækkeligt med svar fra denne vælgergruppe. Grafikken bygger på data fra TNS Gallup, der indeholder svar fra 1.787 repræsentativt udvalgte vælgere.
+      p Vær opmærksom på, at partiernes tilslutning i denne grafik er et gennemsnit af meningsmålinger foretaget over seks måneder. Vil du se et partis aktuelle tilslutning blandt de danske vælgere, henviser vi til Berlingske Barometer, som findes på http://www.politiko.dk/barometeret
+      p Tvivlerdefinition: I denne grafik er man tvivler, hvis man i første omgang svarer 'ved ikke', når Gallup spørger, "hvilket parti ville du stemme på, hvis der var folketingsvalg i morgen." For at være en del af denne grafik skal man dog vælge et parti, når Gallup efterfølgende spørger, hvilket parti man 'hælder til at stemme på'?
+      p Det enkelte partis tilslutning er afrundet til ét decimal i den grafiske fremstilling, hvilket betyder, at udregningen af partiernes tilslutning ikke altid summerer til 100. Denne procedure er aftalt med Gallup.
+      p For spørgsmål, kommentarer eller andet skriv til research@berlingske.dk
+    div(ng-show="page == 'mandates'")
+      p "Tvivlerne" er en række grafiske illustrationer af, hvem tvivlerne er, og hvordan de formentlig vil stemme ved folketingsvalget. Grafikken illustrerer, hvor mange af de 175 danske sæder i Folketinget, der bliver stemt ind af tvivlerne. Afbildningen af folketingssalen er ikke fuldstændig korrekt. Der er foretaget enkelte justeringer og slettet et antal sæder i forhold til salen på Christiansborg. Det skyldes blandt andet, at alle ministre har en plads i salen - også hvis de ikke er valgt til Folketinget.
+      p Grafikken bygger på data fra TNS Gallup, der indeholder svar fra 1.787 repræsentativt udvalgte vælgere.
+      p Tvivlerdefinition: I denne grafik er man tvivler, når man ved sidste valg - altså folketingsvalget i 2011 - stemte på et parti, men i dag svarer ved ikke på spørgsmålet; "hvilket parti ville du stemme på, hvis der var folketingsvalg i morgen." Man kan også være en del af tvivlerne i denne grafik, hvis man er førstegangsvælger.
+      p For spørgsmål, kommentarer eller andet skriv til research@berlingske.dk
+  .clearfix
+div.index-helper(ng-show="page == 'groups'")
+  p Klik på kategorierne herunder og se, hvad der kendetegner gruppen af tvivlere. Eksempelvis køn, alder og erhverv.
+div.index-helper(ng-show="page == 'parties'")
+  p Før musen over cirklerne for at se tallene. Den største cirkel viser, hvor mange der vil stemme på partiet. Den mindste cirkel angiver, hvor stor en andel af partiets vælgere, som i første omgang svarer »ved ikke« over for Gallup, men som alligevel nævner et parti, når Gallup spørger igen. 
+div.index-helper(ng-show="page == 'mandates'")
+  p Folketingets partier bejler til tvivlerne, som er en magtfaktor i dansk politik, alene fordi de er så mange. Ca. {{total.doubters | number}} ved ikke, hvad de ville stemme, hvis der var valg i morgen. Det svarer til {{total.mandates}} ud af de 175 danske mandater, som herunder er illustreret som folketingssalen.
+ng-view(autoscroll="true")

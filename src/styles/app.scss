@@ -1,0 +1,242 @@
+$darkBrown: #805D42;
+$lightBrown: #e6c876;
+
+the-doubters {
+  display: block;
+
+  .index-summery {
+    max-width: 500px;
+    margin: 0 0 20px;
+  }
+
+  .btn {
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:focus, &:focus:active {
+      outline: none !important;
+    }
+  }
+
+  nav {
+    position: relative;
+    display: block;
+
+    .btn {
+      font-size: 14px;
+      border: 1px solid #bcbec0;
+      background: #e6e7e8;
+      border-radius: 0px;
+      padding: 6px;
+      margin-right: 18px;
+
+      span {
+        background: #000;
+        color: #fff;
+        padding: 3px 12px;
+      }
+
+      &.inactive {
+        span {
+          background: #999;
+        }
+      }
+    }
+
+    .btn-round {
+      border-radius: 50%;
+      padding: 3px;
+
+      span {
+        border-radius: 50%;
+
+        &.info {
+          padding: 1px 8px;
+        }
+      }
+    }
+  }
+
+  .right-menu {
+    float: right;
+
+    @media (max-width: 510px) {
+      display: inline-block;
+      float: none;
+      margin-top: 10px;
+    }
+
+    p {
+      display: inline;
+      margin-right: 5px;
+    }
+  }
+
+  .helper {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    right: 100px;
+    font-size: 14px;
+
+    @media (max-width: 767px) {
+      right: 5px;
+    }
+
+    span {
+      vertical-align: 18%;
+    }
+
+    p {
+      display: inline;
+      vertical-align: 14%;
+    }
+
+    i {
+      color: $lightBrown;
+      font-size: 20px;
+    }
+  }
+
+  app-info {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 1;
+    max-width: 350px;
+    padding: 25px 10px 0 10px;
+    background: #fff;
+    border: 1px solid #000;
+    font-size: 12px;
+
+    .close {
+      position: absolute;
+      top: -4px;
+      right: 4px;
+      font-weight: lighter;
+    }
+
+    p {
+      display: block;
+    }
+  }
+
+  .index-helper {
+    max-width: 500px;
+    margin: 20px 0 40px 0;
+    font-size: 13px;
+    color: #555;
+    font-weight: lighter;
+  }
+
+  ng-view {
+    display: block;
+    position: relative;
+
+    ul.groups {
+      list-style-type: none;
+      padding: 0;
+      float: left;
+      width: 180px;
+
+      @media (max-width: 550px) {
+        width: 100%;
+      }
+
+      li {
+        text-transform: uppercase;
+        text-align: right;
+
+        @media (max-width: 550px) {
+          text-align: left;
+          float: left;
+          margin-right: 6px;
+
+          &:not(:last-child) {
+            &:after {
+              content: " -"
+            }
+          }
+        }
+
+        a {
+          color: #999;
+          text-decoration: none;
+
+          &.active {
+            color: #000;
+          }
+        }
+      }
+    }
+
+    .group-entry {
+      .column {
+        fill: $lightBrown;
+      }
+
+      .pointer {
+        fill: $darkBrown;
+      }
+
+      text {
+        font-size: 18px;
+        font-weight: bold;
+        fill: $darkBrown;
+
+        &.popup {
+          cursor: default;
+        }
+      }
+
+      .overlay {
+        fill: $lightBrown;
+      }
+    }
+
+    circle.doubter {
+      fill: $lightBrown;
+    }
+
+    text.mandates {
+      fill: $lightBrown;
+      font: {
+        size: 22px;
+        weight: 600;
+      }
+    }
+  }
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 5px 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  margin-top: -10px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}

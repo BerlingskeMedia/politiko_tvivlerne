@@ -1,0 +1,5 @@
+ul.groups
+  li(ng-repeat="group in groups" ng-class="{'index-{{$index}}': true}" on-finish-render) 
+    a(ng-href="#/grupper/{{$index}}" ng-class="{'active': $index == activeGroup}") {{group.label}}
+svg
+.clearfix
