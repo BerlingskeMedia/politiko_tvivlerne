@@ -89,6 +89,16 @@ gulp.task('images', function () {
     .pipe(gulp.dest(dest + '/img'))
     .pipe(livereload());
 });
+/* Moving datafiles to app */
+gulp.task('data', function () {
+  gulp.src('data/*')
+  .pipe(gulp.dest(dest));
+});
+/* Moving the local files to app */
+gulp.task('app', function () {
+  gulp.src('app_skeleton/**/*')
+  .pipe(gulp.dest('app'));
+});
 /* Watch task */
 gulp.task('watch', function () {
   livereload.listen();
@@ -108,4 +118,4 @@ gulp.task('build', function () {
 gulp.task('serve', serve('app'));
 
 /* Default task */
-gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch', 'serve']);
+gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch', 'app', 'data', 'serve']);
