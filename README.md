@@ -7,20 +7,16 @@
 First off you need to download this repo and all its dependencies:
 
 ```bash
-$ git clone https://github.com/tcarlsen/the-doubters && cd the-doubters
+$ git clone https://github.com/BerlingskeMedia/the-doubters && cd the-doubters
 $ npm install && bower install
-```
-
-Second, this app needs a locale proxy for the get requests from berlingske to work
-
-```bash
-$ npm install -g corsproxy
-$ corsproxy
 ```
 
 Lets fire this baby up by running the `gulp` script! :fire:
 
-Lastly, now navigate to the new `app` folder and start your local server
+## Politiko style and fonts
+
+At every release, CSS on politiko.dk gets a new filename.
+Therefore, the current version of politiko.dk styles and fonts have been downloaded to the app folder.
 
 ## License
 

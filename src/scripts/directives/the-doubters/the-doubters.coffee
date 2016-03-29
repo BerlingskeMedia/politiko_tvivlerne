@@ -9,8 +9,8 @@ angular.module "theDoubtersDirective", []
         doubters: 0
         mandates: 0
 
-      $http.get "/upload/tcarlsen/the-doubters/POLIT2013V1PROFILBERLEKSTRA.json"
+      $http.get "/upload/tcarlsen/the-doubters/POLIT2015V1PROFILBERLEKSTRA.json"
         .then (response) ->
           scope.json = response.data
-          scope.total.doubters = Math.round(response.data.Partier["Partivalg FV11 for tvivlere NU"].BASE["vælgere"].total / 1000) * 1000
-          scope.total.mandates = response.data.Partier["Partivalg FV11 for tvivlere NU"].BASE.mandater.total
+          scope.total.doubters = Math.round(response.data.Partier["Partivalg FV15 for tvivlere NU"].BASE["vælgere"].total / 1000) * 1000
+          scope.total.mandates = response.data.Partier["Partivalg FV15 for tvivlere NU"].BASE.mandater.total

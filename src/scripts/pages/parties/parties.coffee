@@ -22,6 +22,7 @@ angular.module "partyController", []
       o: "#005078"
       i: "#ef8535"
       k: "#f0ac55"
+      "å": "#5aff5a"
     svg = d3.select "svg"
     tip = d3.tip()
       .attr "class", "d3-tip"

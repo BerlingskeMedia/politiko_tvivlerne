@@ -3,7 +3,7 @@ angular.module "mandateController", []
     $rootScope.page = "mandates"
 
     svg = d3.select "svg"
-    mandates = $scope.json.Partier["Partivalg FV11 for tvivlere NU"].BASE.mandater.total
+    mandates = $scope.json.Partier["Partivalg FV15 for tvivlere NU"].BASE.mandater.total
 
 
     d3.xml "/upload/tcarlsen/the-doubters/img/folketingssal.svg", "application/xml", (xml) ->
