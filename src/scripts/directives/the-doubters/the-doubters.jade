@@ -12,14 +12,14 @@ nav(role="navigation")
       span &nbsp; —&nbsp;
       p tvivler
     p Periode: &nbsp;
-      strong fra november 2014 - april 2015
+      strong fra september 2015 - februar 2016
     button.btn.btn-round(ng-click="showAppInfo=true")
       span.info
         i.fa.fa-info
   app-info(ng-show="showAppInfo")
     .close(ng-click="showAppInfo=false") &times;
     div(ng-show="page == 'groups'")
-      p "Tvivlerne" er en række grafiske illustrationer af, hvem tvivlerne er, og hvordan de formentlig vil stemme ved folketingsvalget. I denne grafik kan du gå på opdagelse i, hvad der kendetegner gruppen af tvivlere. For hvert punkt i menuen til venstre, kan du se, hvordan gruppen af tvivlere fordeler sig på de forskellige muligheder. Hvor striberne er meget smalle kommer tallet frem, når du fører musen henover. 
+      p "Tvivlerne" er en række grafiske illustrationer af, hvem tvivlerne er, og hvordan de formentlig vil stemme ved folketingsvalget. I denne grafik kan du gå på opdagelse i, hvad der kendetegner gruppen af tvivlere. For hvert punkt i menuen til venstre, kan du se, hvordan gruppen af tvivlere fordeler sig på de forskellige muligheder. Hvor striberne er meget smalle kommer tallet frem, når du fører musen henover.
       p Grafikken bygger på data fra TNS Gallup, der indeholder svar fra 1.787 repræsentativt udvalgte vælgere.
       p Tvivlerdefinition: I denne grafik er man tvivler, når man ved sidste valg - altså folketingsvalget i 2011 - stemte på et parti, men i dag svarer ved ikke på spørgsmålet; "hvilket parti ville du stemme på, hvis der var folketingsvalg i morgen." Man kan også være en del af tvivlerne i denne grafik, hvis man er førstegangsvælger.
       p For at sikre en tilstrækkelig kvalitet i de data, der ligger bag grafikkerne, har Gallup fastsat en grænse på minimum 100 respondenter i hver gruppe. Det betyder konkret, at ingen af de tal, der figurerer i grafikken, er baseret på færre end 100 respondenter. Der er dog stadig en statistisk usikkerhed på tallene. For enkelte tal kan denne være på helt op til +/- 7 procent.
@@ -41,7 +41,7 @@ nav(role="navigation")
 div.index-helper(ng-show="page == 'groups'")
   p Klik på kategorierne herunder og se, hvad der kendetegner gruppen af tvivlere. Eksempelvis køn, alder og erhverv.
 div.index-helper(ng-show="page == 'parties'")
-  p Før musen over cirklerne for at se tallene. Den største cirkel viser, hvor mange der vil stemme på partiet. Den mindste cirkel angiver, hvor stor en andel af partiets vælgere, som i første omgang svarer »ved ikke« over for Gallup, men som alligevel nævner et parti, når Gallup spørger igen. 
+  p Før musen over cirklerne for at se tallene. Den største cirkel viser, hvor mange der vil stemme på partiet. Den mindste cirkel angiver, hvor stor en andel af partiets vælgere, som i første omgang svarer »ved ikke« over for Gallup, men som alligevel nævner et parti, når Gallup spørger igen.
 div.index-helper(ng-show="page == 'mandates'")
   p Folketingets partier bejler til tvivlerne, som er en magtfaktor i dansk politik, alene fordi de er så mange. Ca. {{total.doubters | number}} ved ikke, hvad de ville stemme, hvis der var valg i morgen. Det svarer til {{total.mandates}} ud af de 175 danske mandater, som herunder er illustreret som folketingssalen.
 ng-view(autoscroll="true")
