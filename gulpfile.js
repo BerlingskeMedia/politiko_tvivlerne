@@ -17,6 +17,7 @@ var
   jade = require('gulp-jade'),
   plumber = require('gulp-plumber'),
   livereload = require('gulp-livereload'),
+  serve = require('gulp-serve'),
   pkg = require('./package.json');
 
 var banner = [
@@ -103,5 +104,8 @@ gulp.task('build', function () {
 
   gulp.start('scripts', 'styles', 'dom', 'images');
 });
+
+gulp.task('serve', serve('app'));
+
 /* Default task */
-gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch', 'serve']);
