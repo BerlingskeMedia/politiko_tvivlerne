@@ -81,11 +81,12 @@ gulp.task('images', function () {
   return gulp.src('src/images/**')
     .pipe(plumber())
     .pipe(gulpif(!build, changed('app/img')))
-    .pipe(imagemin({
-      svgoPlugins: [{
-        cleanupIDs: false
-      }]
-    }))
+    // imagemin somehow messes up the folketingssal.svg
+    // .pipe(imagemin({
+    //   svgoPlugins: [{
+    //     cleanupIDs: false
+    //   }]
+    // }))
     .pipe(gulp.dest(dest + '/img'))
     .pipe(livereload());
 });
@@ -109,10 +110,17 @@ gulp.task('watch', function () {
 });
 /* Build task */
 gulp.task('build', function () {
-  build = true;
-  dest = 'build';
-
-  gulp.start('scripts', 'styles', 'dom', 'images');
+  if (process.argv.indexOf('--production') > -1){
+    build = true;
+    dest = 'build';
+    console.log('Building into ./' + dest);
+    gulp.start('scripts', 'styles', 'dom', 'images');
+  } else {
+    build = false;
+    dest = 'app/upload/tcarlsen/the-doubters';
+    console.log('Building into ./' + dest);
+    gulp.start('scripts', 'styles', 'dom', 'images', 'app', 'data');
+  }
 });
 
 gulp.task('serve', serve('app'));

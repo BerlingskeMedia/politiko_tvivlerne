@@ -18,6 +18,7 @@ angular.module "partyController", []
       a: "#e32f3b"
       b: "#e52b91"
       c: "#0f854b"
+      d: "#00444f"
       v: "#0f84bb"
       o: "#005078"
       i: "#ef8535"

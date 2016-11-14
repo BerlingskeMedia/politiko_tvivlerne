@@ -3,7 +3,7 @@ angular.module "mandateController", []
     $rootScope.page = "mandates"
 
     svg = d3.select "svg"
-    mandates = $scope.json.Partier["Partivalg FV15 for tvivlere NU"].BASE.mandater.total
+    mandates = Math.round(parseFloat($scope.json.Partier["Partivalg FV15 for tvivlere NU"].BASE.mandater.total))
 
 
     d3.xml "/upload/tcarlsen/the-doubters/img/folketingssal.svg", "application/xml", (xml) ->
@@ -12,6 +12,7 @@ angular.module "mandateController", []
 
       while i <= mandates
         d3.select "#man#{i}"
+          .selectAll "path"
           .attr "fill", "#e6c876"
 
         i++
