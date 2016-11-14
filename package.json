@@ -2,7 +2,12 @@
   "name": "the-doubters",
   "version": "1.1.0",
   "description": "a webtool for politiko.dk",
-  "author": "tcarlsen",
+  "author": "Berlingske Media",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BerlingskeMedia/the-doubters"
+  },
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-changed": "^1.1.0",
