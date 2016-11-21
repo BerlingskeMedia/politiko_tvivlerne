@@ -123,7 +123,7 @@ gulp.task('build', function () {
   }
 });
 
-gulp.task('serve', serve('app'));
+gulp.task('serve', serve({ root: ['app'], port: 9000 }));
 
 /* Default task */
 gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch', 'app', 'data', 'serve']);

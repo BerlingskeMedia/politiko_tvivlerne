@@ -92,13 +92,17 @@ angular.module "groupController", []
 
             return "M0,#{liPos}L#{barMargin.left},0L#{barMargin.left},#{yScale(procentConverter(d))}z"
 
+      percentRound = (input) ->
+        u = parseFloat(input.replace(',','.')).toFixed(1)
+        return u.toString().replace('.',',')
+
       texts = entries.append "text"
         .attr "class", "label"
         .attr "x", (barWidth / 2) + barMargin.left
         .attr "y", (d) -> yScale(procentConverter(d)) / 2
         .attr "dy", 6.2
         .attr "text-anchor", "middle"
-        .text (d) -> "#{d.label.toUpperCase()} #{d.data.procenter.total.replace('%', '')} pct."
+        .text (d) -> "#{d.label.toUpperCase()} #{percentRound(d.data.procenter.total.replace('%', ''))} pct."
         .classed "popup hide", (d) -> yScale(procentConverter(d)) < 20
 
     $window.onresize = ->
