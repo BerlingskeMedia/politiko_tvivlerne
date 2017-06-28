@@ -1,5 +1,7 @@
 # Political Majority
 
+[Tvivlerne](https://berlingskemedia.atlassian.net/wiki/display/POLTOOLS/Tvivlerne)
+
 ![preview](https://cloud.githubusercontent.com/assets/145288/5875337/4d1d1e50-a30c-11e4-86a2-0f02a4656868.png)
 
 ## Contribute
