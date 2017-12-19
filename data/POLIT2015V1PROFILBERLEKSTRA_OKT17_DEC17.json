@@ -75,7 +75,7 @@
           "total": "147281"
         }
       },
-      "Nye Borgerlige": {
+      "d": {
         "procenter": {
           "total": "1,9%"
         },
@@ -83,7 +83,7 @@
           "total": "67337"
         }
       },
-      "SF": {
+      "f": {
         "procenter": {
           "total": "4,3%"
         },
@@ -91,7 +91,7 @@
           "total": "156177"
         }
       },
-      "Liberal Alliance": {
+      "i": {
         "procenter": {
           "total": "4,7%"
         },
@@ -99,7 +99,7 @@
           "total": "169955"
         }
       },
-      "Dansk Folkeparti": {
+      "o": {
         "procenter": {
           "total": "16,1%"
         },
@@ -107,7 +107,7 @@
           "total": "586260"
         }
       },
-      "Venstre": {
+      "v": {
         "procenter": {
           "total": "17,9%"
         },
@@ -115,7 +115,7 @@
           "total": "650339"
         }
       },
-      "Enhedslisten": {
+      "ø": {
         "procenter": {
           "total": "6,8%"
         },
@@ -123,7 +123,7 @@
           "total": "246610"
         }
       },
-      "Alternativet": {
+      "å": {
         "procenter": {
           "total": "4,4%"
         },
@@ -155,7 +155,7 @@
           "total": "24038"
         }
       },
-      "Nye Borligerlige tvivlere": {
+      "d tvivlere": {
         "procenter": {
           "total": "0,1%"
         },
@@ -163,7 +163,7 @@
           "total": "3068"
         }
       },
-      "SF tvivlere": {
+      "f tvivlere": {
         "procenter": {
           "total": "0,6%"
         },
@@ -171,7 +171,7 @@
           "total": "23500"
         }
       },
-      "Liberal Alliance tvivlere": {
+      "i tvivlere": {
         "procenter": {
           "total": "0,3%"
         },
@@ -179,7 +179,7 @@
           "total": "12108"
         }
       },
-      "Dansk Folkeparti tvivlere": {
+      "o tvivlere": {
         "procenter": {
           "total": "1,7%"
         },
@@ -187,7 +187,7 @@
           "total": "60015"
         }
       },
-      "Venstre tvivlere": {
+      "v tvivlere": {
         "procenter": {
           "total": "1,9%"
         },
@@ -195,7 +195,7 @@
           "total": "67732"
         }
       },
-      "Enhedslisten tvivlere": {
+      "ø tvivlere": {
         "procenter": {
           "total": "0,7%"
         },
@@ -203,7 +203,7 @@
           "total": "24556"
         }
       },
-      "Alternativet tvivlere": {
+      "å tvivlere": {
         "procenter": {
           "total": "0,4%"
         },
@@ -257,7 +257,7 @@
           "total": "1"
         }
       },
-      "SF": {
+      "f": {
         "procenter": {
           "total": "4,3%"
         },
@@ -268,7 +268,7 @@
           "total": "1"
         }
       },
-      "Liberal Alliance": {
+      "i": {
         "procenter": {
           "total": "6,2%"
         },
@@ -279,7 +279,7 @@
           "total": "2"
         }
       },
-      "Dansk Folkeparti": {
+      "o": {
         "procenter": {
           "total": "20,4%"
         },
@@ -290,7 +290,7 @@
           "total": "5"
         }
       },
-      "Venstre": {
+      "v": {
         "procenter": {
           "total": "19,6%"
         },
@@ -301,7 +301,7 @@
           "total": "5"
         }
       },
-      "Enhedslisten": {
+      "ø": {
         "procenter": {
           "total": "4,9%"
         },
@@ -312,7 +312,7 @@
           "total": "1"
         }
       },
-      "Alternativet": {
+      "å": {
         "procenter": {
           "total": "6,5%"
         },
