@@ -1,0 +1,1321 @@
+{
+  "Partier": {
+    "TILSLUTNING NU": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "3630501"
+        }
+      },
+      "RØD BLOK": {
+        "procenter": {
+          "total": "45,6%"
+        },
+        "vælgere": {
+          "total": "1655396"
+        }
+      },
+      "RØD BLOK TVIVLERE": {
+        "procenter": {
+          "total": "5,2%"
+        },
+        "vælgere": {
+          "total": "186973"
+        }
+      },
+      "BLÅ BLOK": {
+        "procenter": {
+          "total": "44,7%"
+        },
+        "vælgere": {
+          "total": "1621172"
+        }
+      },
+      "BLÅ BLOK TVIVLERE": {
+        "procenter": {
+          "total": "4,6%"
+        },
+        "vælgere": {
+          "total": "166961"
+        }
+      }
+    },
+    "Partivalg NU": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "3630501"
+        }
+      },
+      "a": {
+        "procenter": {
+          "total": "25,5%"
+        },
+        "vælgere": {
+          "total": "924853"
+        }
+      },
+      "b": {
+        "procenter": {
+          "total": "4,7%"
+        },
+        "vælgere": {
+          "total": "168858"
+        }
+      },
+      "c": {
+        "procenter": {
+          "total": "4,1%"
+        },
+        "vælgere": {
+          "total": "147281"
+        }
+      },
+      "Nye Borgerlige": {
+        "procenter": {
+          "total": "1,9%"
+        },
+        "vælgere": {
+          "total": "67337"
+        }
+      },
+      "SF": {
+        "procenter": {
+          "total": "4,3%"
+        },
+        "vælgere": {
+          "total": "156177"
+        }
+      },
+      "Liberal Alliance": {
+        "procenter": {
+          "total": "4,7%"
+        },
+        "vælgere": {
+          "total": "169955"
+        }
+      },
+      "Dansk Folkeparti": {
+        "procenter": {
+          "total": "16,1%"
+        },
+        "vælgere": {
+          "total": "586260"
+        }
+      },
+      "Venstre": {
+        "procenter": {
+          "total": "17,9%"
+        },
+        "vælgere": {
+          "total": "650339"
+        }
+      },
+      "Enhedslisten": {
+        "procenter": {
+          "total": "6,8%"
+        },
+        "vælgere": {
+          "total": "246610"
+        }
+      },
+      "Alternativet": {
+        "procenter": {
+          "total": "4,4%"
+        },
+        "vælgere": {
+          "total": "158898"
+        }
+      },
+      "a tvivlere": {
+        "procenter": {
+          "total": "2,7%"
+        },
+        "vælgere": {
+          "total": "98739"
+        }
+      },
+      "b tvivlere": {
+        "procenter": {
+          "total": "0,7%"
+        },
+        "vælgere": {
+          "total": "25313"
+        }
+      },
+      "c tvivlere": {
+        "procenter": {
+          "total": "0,7%"
+        },
+        "vælgere": {
+          "total": "24038"
+        }
+      },
+      "Nye Borligerlige tvivlere": {
+        "procenter": {
+          "total": "0,1%"
+        },
+        "vælgere": {
+          "total": "3068"
+        }
+      },
+      "SF tvivlere": {
+        "procenter": {
+          "total": "0,6%"
+        },
+        "vælgere": {
+          "total": "23500"
+        }
+      },
+      "Liberal Alliance tvivlere": {
+        "procenter": {
+          "total": "0,3%"
+        },
+        "vælgere": {
+          "total": "12108"
+        }
+      },
+      "Dansk Folkeparti tvivlere": {
+        "procenter": {
+          "total": "1,7%"
+        },
+        "vælgere": {
+          "total": "60015"
+        }
+      },
+      "Venstre tvivlere": {
+        "procenter": {
+          "total": "1,9%"
+        },
+        "vælgere": {
+          "total": "67732"
+        }
+      },
+      "Enhedslisten tvivlere": {
+        "procenter": {
+          "total": "0,7%"
+        },
+        "vælgere": {
+          "total": "24556"
+        }
+      },
+      "Alternativet tvivlere": {
+        "procenter": {
+          "total": "0,4%"
+        },
+        "vælgere": {
+          "total": "14865"
+        }
+      }
+    },
+    "Partivalg FV15 for tvivlere NU": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "585145"
+        },
+        "mandater": {
+          "total": "25"
+        }
+      },
+      "a": {
+        "procenter": {
+          "total": "22,0%"
+        },
+        "vælgere": {
+          "total": "128863"
+        },
+        "mandater": {
+          "total": "5"
+        }
+      },
+      "b": {
+        "procenter": {
+          "total": "6,5%"
+        },
+        "vælgere": {
+          "total": "38205"
+        },
+        "mandater": {
+          "total": "2"
+        }
+      },
+      "c": {
+        "procenter": {
+          "total": "3,6%"
+        },
+        "vælgere": {
+          "total": "20902"
+        },
+        "mandater": {
+          "total": "1"
+        }
+      },
+      "SF": {
+        "procenter": {
+          "total": "4,3%"
+        },
+        "vælgere": {
+          "total": "25326"
+        },
+        "mandater": {
+          "total": "1"
+        }
+      },
+      "Liberal Alliance": {
+        "procenter": {
+          "total": "6,2%"
+        },
+        "vælgere": {
+          "total": "36008"
+        },
+        "mandater": {
+          "total": "2"
+        }
+      },
+      "Dansk Folkeparti": {
+        "procenter": {
+          "total": "20,4%"
+        },
+        "vælgere": {
+          "total": "119182"
+        },
+        "mandater": {
+          "total": "5"
+        }
+      },
+      "Venstre": {
+        "procenter": {
+          "total": "19,6%"
+        },
+        "vælgere": {
+          "total": "114955"
+        },
+        "mandater": {
+          "total": "5"
+        }
+      },
+      "Enhedslisten": {
+        "procenter": {
+          "total": "4,9%"
+        },
+        "vælgere": {
+          "total": "28732"
+        },
+        "mandater": {
+          "total": "1"
+        }
+      },
+      "Alternativet": {
+        "procenter": {
+          "total": "6,5%"
+        },
+        "vælgere": {
+          "total": "38009"
+        },
+        "mandater": {
+          "total": "2"
+        }
+      },
+      "Stemte ikke": {
+        "procenter": {
+          "total": "6,0%"
+        },
+        "vælgere": {
+          "total": "34964"
+        },
+        "mandater": {
+          "total": "1"
+        }
+      }
+    }
+  },
+  "Tvivlere": {
+    "TYPE": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "CATI": {
+        "procenter": {
+          "total": "59,0%"
+        },
+        "vælgere": {
+          "total": "421"
+        }
+      },
+      "WEB": {
+        "procenter": {
+          "total": "41,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      }
+    },
+    "Køn": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "Mand": {
+        "procenter": {
+          "total": "38,6%"
+        },
+        "vælgere": {
+          "total": "275"
+        }
+      },
+      "Kvinde": {
+        "procenter": {
+          "total": "61,4%"
+        },
+        "vælgere": {
+          "total": "438"
+        }
+      }
+    },
+    "ALDER": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "18-24 år": {
+        "procenter": {
+          "total": "12,6%"
+        },
+        "vælgere": {
+          "total": "90"
+        }
+      },
+      "25-39 år": {
+        "procenter": {
+          "total": "22,7%"
+        },
+        "vælgere": {
+          "total": "162"
+        }
+      },
+      "40-65 år": {
+        "procenter": {
+          "total": "47,1%"
+        },
+        "vælgere": {
+          "total": "336"
+        }
+      },
+      "66 ÅR +": {
+        "procenter": {
+          "total": "17,6%"
+        },
+        "vælgere": {
+          "total": "125"
+        }
+      }
+    },
+    "KØN OG ALDER": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "MÆND 18 - 24 ÅR": {
+        "procenter": {
+          "total": "6,2%"
+        },
+        "vælgere": {
+          "total": "44"
+        }
+      },
+      "MÆND 25 - 39 ÅR": {
+        "procenter": {
+          "total": "8,8%"
+        },
+        "vælgere": {
+          "total": "62"
+        }
+      },
+      "MÆND 40 - 49 ÅR": {
+        "procenter": {
+          "total": "7,5%"
+        },
+        "vælgere": {
+          "total": "54"
+        }
+      },
+      "MÆND 50 - 59 ÅR": {
+        "procenter": {
+          "total": "6,6%"
+        },
+        "vælgere": {
+          "total": "47"
+        }
+      },
+      "MÆND 60 - 69 ÅR": {
+        "procenter": {
+          "total": "4,7%"
+        },
+        "vælgere": {
+          "total": "34"
+        }
+      },
+      "MÆND 70 ÅR +": {
+        "procenter": {
+          "total": "4,8%"
+        },
+        "vælgere": {
+          "total": "34"
+        }
+      },
+      "KVINDER 18 - 24 ÅR": {
+        "procenter": {
+          "total": "6,5%"
+        },
+        "vælgere": {
+          "total": "46"
+        }
+      },
+      "KVINDER 25 - 39 ÅR": {
+        "procenter": {
+          "total": "14,0%"
+        },
+        "vælgere": {
+          "total": "99"
+        }
+      },
+      "KVINDER 40 - 49 ÅR": {
+        "procenter": {
+          "total": "12,6%"
+        },
+        "vælgere": {
+          "total": "90"
+        }
+      },
+      "KVINDER 50 - 59 ÅR": {
+        "procenter": {
+          "total": "10,6%"
+        },
+        "vælgere": {
+          "total": "76"
+        }
+      },
+      "KVINDER 60 - 69 ÅR": {
+        "procenter": {
+          "total": "9,8%"
+        },
+        "vælgere": {
+          "total": "70"
+        }
+      },
+      "KVINDER 70 ÅR +": {
+        "procenter": {
+          "total": "8,0%"
+        },
+        "vælgere": {
+          "total": "57"
+        }
+      }
+    },
+    "HVAD ER DIN EGEN SIDST AFSLUTTEDE UDDANNELSE ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "FOLKESKOLE 7 ÅR ELLER KORTERE": {
+        "procenter": {
+          "total": "3,1%"
+        },
+        "vælgere": {
+          "total": "22"
+        }
+      },
+      "FOLKESKOLE 8 - 10 ÅR": {
+        "procenter": {
+          "total": "15,9%"
+        },
+        "vælgere": {
+          "total": "114"
+        }
+      },
+      "MELLEMSKOLE-/REALEKSAMEN/PRÆLIMINÆREKSAMEN": {
+        "procenter": {
+          "total": "4,8%"
+        },
+        "vælgere": {
+          "total": "34"
+        }
+      },
+      "STUDENTEREKSAMEN/ HF-EKSAMEN/ HH-EKSAMEN/HTX-EKSAMEN": {
+        "procenter": {
+          "total": "10,4%"
+        },
+        "vælgere": {
+          "total": "74"
+        }
+      },
+      "ERHVERVSUDDANNELSE / HG-EKSAMEN (GRUNDLÆGGENDE/AFSLUTTENDE)": {
+        "procenter": {
+          "total": "34,2%"
+        },
+        "vælgere": {
+          "total": "244"
+        }
+      },
+      "KORT VIDEREGÅENDE UDDANNELSE (TIL OG MED 3 ÅR)": {
+        "procenter": {
+          "total": "6,0%"
+        },
+        "vælgere": {
+          "total": "43"
+        }
+      },
+      "LANG VIDEREGÅENDE UDDANNELSE/UNIVERSITETSUDDANNELSE (mere end 3 år)": {
+        "procenter": {
+          "total": "25,6%"
+        },
+        "vælgere": {
+          "total": "182"
+        }
+      }
+    },
+    "UDDANNELSE": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "FOLKESK/ MELLEMSK-/ REALEKS/ PRÆL": {
+        "procenter": {
+          "total": "23,8%"
+        },
+        "vælgere": {
+          "total": "170"
+        }
+      },
+      "STUDENTEREKSAMEN/ HF/HH/HG/HTXEKSAMEN": {
+        "procenter": {
+          "total": "10,4%"
+        },
+        "vælgere": {
+          "total": "74"
+        }
+      },
+      "ERHVERVSEKSAMEN (GRUNDLÆGGENDE/AFSLUTTENDE)": {
+        "procenter": {
+          "total": "34,2%"
+        },
+        "vælgere": {
+          "total": "244"
+        }
+      },
+      "HØJERE/ VIDEREGÅENDE UDDAN": {
+        "procenter": {
+          "total": "31,6%"
+        },
+        "vælgere": {
+          "total": "225"
+        }
+      }
+    },
+    "HVAD ER DERES ERHVERV P.T. ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "291"
+        }
+      },
+      "ARBEJDER, UFAGLÆRT (IKKE SPECIALARBEJDER)": {
+        "procenter": {
+          "total": "11,2%"
+        },
+        "vælgere": {
+          "total": "33"
+        }
+      },
+      "ARBEJDER, UFAGLÆRT (SPECIALARBEJDER)": {
+        "procenter": {
+          "total": "4,0%"
+        },
+        "vælgere": {
+          "total": "12"
+        }
+      },
+      "ARBEJDER, FAGLÆRT": {
+        "procenter": {
+          "total": "3,0%"
+        },
+        "vælgere": {
+          "total": "9"
+        }
+      },
+      "FUNKTIONÆR/TJENESTEMAND, LAVERE": {
+        "procenter": {
+          "total": "26,2%"
+        },
+        "vælgere": {
+          "total": "76"
+        }
+      },
+      "FUNKTIONÆR/TJENESTEMAND, HØJERE": {
+        "procenter": {
+          "total": "8,9%"
+        },
+        "vælgere": {
+          "total": "26"
+        }
+      },
+      "SELVSTÆNDIG DETAILHANDLER/HÅNDVÆRKSMESTER": {
+        "procenter": {
+          "total": "1,1%"
+        },
+        "vælgere": {
+          "total": "3"
+        }
+      },
+      "SELVSTÆNDIG I ØVRIGT": {
+        "procenter": {
+          "total": "1,2%"
+        },
+        "vælgere": {
+          "total": "3"
+        }
+      },
+      "LÆRLING/ELEV": {
+        "procenter": {
+          "total": "2,0%"
+        },
+        "vælgere": {
+          "total": "6"
+        }
+      },
+      "SKOLEELEV/STUDERENDE": {
+        "procenter": {
+          "total": "9,5%"
+        },
+        "vælgere": {
+          "total": "28"
+        }
+      },
+      "UDE AF ERHVERV (PENSIONIST/EFTERLØNSMODTAGER OG LIGN.)": {
+        "procenter": {
+          "total": "21,1%"
+        },
+        "vælgere": {
+          "total": "62"
+        }
+      },
+      "GIFT UDEN SELVERHVERV/HJEMMEGÅENDE": {
+        "procenter": {
+          "total": "0,4%"
+        },
+        "vælgere": {
+          "total": "1"
+        }
+      },
+      "MEDHJÆLPENDE ÆGTEFÆLLE": {
+        "procenter": {
+          "total": "0,3%"
+        },
+        "vælgere": {
+          "total": "1"
+        }
+      },
+      "ARBEJDSLØS": {
+        "procenter": {
+          "total": "10,9%"
+        },
+        "vælgere": {
+          "total": "32"
+        }
+      }
+    },
+    "ERHVERV": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "291"
+        }
+      },
+      "ARBEJDER (UFAGLÆRT/FAGLÆRT)": {
+        "procenter": {
+          "total": "18,2%"
+        },
+        "vælgere": {
+          "total": "53"
+        }
+      },
+      "FUNKTIONÆR (LAVERE, HØJERE)": {
+        "procenter": {
+          "total": "35,2%"
+        },
+        "vælgere": {
+          "total": "103"
+        }
+      },
+      "SELVSTÆNDIG (LANDBRUG, DETAIL, ØVRIGT)": {
+        "procenter": {
+          "total": "2,3%"
+        },
+        "vælgere": {
+          "total": "7"
+        }
+      },
+      "LÆRLING/ELEV/STUDERENDE": {
+        "procenter": {
+          "total": "11,5%"
+        },
+        "vælgere": {
+          "total": "34"
+        }
+      },
+      "UDE AF ERHVERV (PENS. O.LIGN)": {
+        "procenter": {
+          "total": "21,1%"
+        },
+        "vælgere": {
+          "total": "62"
+        }
+      },
+      "ARBEJDSLØS": {
+        "procenter": {
+          "total": "10,9%"
+        },
+        "vælgere": {
+          "total": "32"
+        }
+      },
+      "ANDET": {
+        "procenter": {
+          "total": "0,7%"
+        },
+        "vælgere": {
+          "total": "2"
+        }
+      }
+    },
+    "PERSONLIG INDKOMST": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "INDTIL 199.999 KR.": {
+        "procenter": {
+          "total": "21,7%"
+        },
+        "vælgere": {
+          "total": "63"
+        }
+      },
+      "200.000 - 599.999 KR.": {
+        "procenter": {
+          "total": "57,5%"
+        },
+        "vælgere": {
+          "total": "168"
+        }
+      },
+      "600.000 KR. OG DEROVER": {
+        "procenter": {
+          "total": "2,7%"
+        },
+        "vælgere": {
+          "total": "8"
+        }
+      },
+      "VED IKKE/VIL IKKE SVARE": {
+        "procenter": {
+          "total": "18,1%"
+        },
+        "vælgere": {
+          "total": "53"
+        }
+      }
+    },
+    "Husstandsindkomst": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "INDTIL 199.999 KR.": {
+        "procenter": {
+          "total": "10,3%"
+        },
+        "vælgere": {
+          "total": "30"
+        }
+      },
+      "200.000 - 599.999 KR.": {
+        "procenter": {
+          "total": "39,0%"
+        },
+        "vælgere": {
+          "total": "114"
+        }
+      },
+      "600.000 KR. OG DEROVER": {
+        "procenter": {
+          "total": "27,9%"
+        },
+        "vælgere": {
+          "total": "82"
+        }
+      },
+      "VED IKKE/VIL IKKE SVARE": {
+        "procenter": {
+          "total": "22,8%"
+        },
+        "vælgere": {
+          "total": "67"
+        }
+      }
+    },
+    "Storkreds": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "København": {
+        "procenter": {
+          "total": "15,0%"
+        },
+        "vælgere": {
+          "total": "107"
+        }
+      },
+      "Københavns Omegn": {
+        "procenter": {
+          "total": "7,3%"
+        },
+        "vælgere": {
+          "total": "52"
+        }
+      },
+      "Nordsjælland": {
+        "procenter": {
+          "total": "9,3%"
+        },
+        "vælgere": {
+          "total": "66"
+        }
+      },
+      "Bornholm": {
+        "procenter": {
+          "total": "0,8%"
+        },
+        "vælgere": {
+          "total": "6"
+        }
+      },
+      "Sjælland": {
+        "procenter": {
+          "total": "13,7%"
+        },
+        "vælgere": {
+          "total": "98"
+        }
+      },
+      "Fyn": {
+        "procenter": {
+          "total": "10,2%"
+        },
+        "vælgere": {
+          "total": "73"
+        }
+      },
+      "Sydjylland": {
+        "procenter": {
+          "total": "15,1%"
+        },
+        "vælgere": {
+          "total": "108"
+        }
+      },
+      "Østjylland": {
+        "procenter": {
+          "total": "12,4%"
+        },
+        "vælgere": {
+          "total": "89"
+        }
+      },
+      "Vestjylland": {
+        "procenter": {
+          "total": "5,5%"
+        },
+        "vælgere": {
+          "total": "39"
+        }
+      },
+      "Nordjylland": {
+        "procenter": {
+          "total": "10,7%"
+        },
+        "vælgere": {
+          "total": "76"
+        }
+      }
+    },
+    "Region": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "Hovedstaden": {
+        "procenter": {
+          "total": "32,3%"
+        },
+        "vælgere": {
+          "total": "230"
+        }
+      },
+      "Sjælland": {
+        "procenter": {
+          "total": "13,7%"
+        },
+        "vælgere": {
+          "total": "98"
+        }
+      },
+      "Syddanmark": {
+        "procenter": {
+          "total": "25,4%"
+        },
+        "vælgere": {
+          "total": "181"
+        }
+      },
+      "Midtjylland": {
+        "procenter": {
+          "total": "17,9%"
+        },
+        "vælgere": {
+          "total": "128"
+        }
+      },
+      "Nordjylland": {
+        "procenter": {
+          "total": "10,7%"
+        },
+        "vælgere": {
+          "total": "76"
+        }
+      }
+    },
+    "PERSONER I HUSSTANDEN": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "713"
+        }
+      },
+      "1 PERSON": {
+        "procenter": {
+          "total": "20,0%"
+        },
+        "vælgere": {
+          "total": "142"
+        }
+      },
+      "2 PERSONER": {
+        "procenter": {
+          "total": "37,1%"
+        },
+        "vælgere": {
+          "total": "264"
+        }
+      },
+      "3 PERSONER": {
+        "procenter": {
+          "total": "16,1%"
+        },
+        "vælgere": {
+          "total": "115"
+        }
+      },
+      "4 PERSONER ELLER FLERE": {
+        "procenter": {
+          "total": "26,8%"
+        },
+        "vælgere": {
+          "total": "191"
+        }
+      }
+    },
+    "HVILKEN FORM FOR BOLIG BOR DU I ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "HUS/VILLA/PARCELHUS": {
+        "procenter": {
+          "total": "46,5%"
+        },
+        "vælgere": {
+          "total": "136"
+        }
+      },
+      "RÆKKE-/KLYNGE-KÆDEHUS": {
+        "procenter": {
+          "total": "12,7%"
+        },
+        "vælgere": {
+          "total": "37"
+        }
+      },
+      "GÅRD": {
+        "procenter": {
+          "total": "5,9%"
+        },
+        "vælgere": {
+          "total": "17"
+        }
+      },
+      "ETAGEEJENDOM, BEBOELSESEJENDOM (LEJLIGHED)": {
+        "procenter": {
+          "total": "33,8%"
+        },
+        "vælgere": {
+          "total": "99"
+        }
+      },
+      "VÆRELSE": {
+        "procenter": {
+          "total": "0,9%"
+        },
+        "vælgere": {
+          "total": "3"
+        }
+      },
+      "ANDET": {
+        "procenter": {
+          "total": "0,2%"
+        },
+        "vælgere": {
+          "total": "1"
+        }
+      }
+    },
+    "BOR DU I EN EJER-, ANDELS- ELLER LEJERBOLIG ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "EJERBOLIG": {
+        "procenter": {
+          "total": "59,1%"
+        },
+        "vælgere": {
+          "total": "173"
+        }
+      },
+      "ANDELSBOLIG": {
+        "procenter": {
+          "total": "7,2%"
+        },
+        "vælgere": {
+          "total": "21"
+        }
+      },
+      "LEJERBOLIG/TJENESTEBOLIG": {
+        "procenter": {
+          "total": "33,7%"
+        },
+        "vælgere": {
+          "total": "98"
+        }
+      }
+    },
+    "ER DU FOR TIDEN BESKÆFTIGET I PRIVAT ELLER OFFENTLIG VIRKSOMHED ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "148"
+        }
+      },
+      "JA, PRIVAT VIRKSOMHED": {
+        "procenter": {
+          "total": "63,4%"
+        },
+        "vælgere": {
+          "total": "94"
+        }
+      },
+      "JA, OFFENTLIG VIRKSOMHED": {
+        "procenter": {
+          "total": "34,3%"
+        },
+        "vælgere": {
+          "total": "51"
+        }
+      },
+      "ARBEJDSLØS": {
+        "procenter": {
+          "total": "2,4%"
+        },
+        "vælgere": {
+          "total": "4"
+        }
+      }
+    },
+    "HVOR STOR EN DEL AF DE DAGLIGE INDKØB STÅR DU FOR ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "STÅR FOR ALLE INDKØB": {
+        "procenter": {
+          "total": "36,7%"
+        },
+        "vælgere": {
+          "total": "107"
+        }
+      },
+      "STÅR FOR DE FLESTE INDKØB": {
+        "procenter": {
+          "total": "22,0%"
+        },
+        "vælgere": {
+          "total": "64"
+        }
+      },
+      "DELES LIGELIGT MED ANDRE": {
+        "procenter": {
+          "total": "33,0%"
+        },
+        "vælgere": {
+          "total": "96"
+        }
+      },
+      "DELTAGER, MEN SJÆLDNERE": {
+        "procenter": {
+          "total": "8,2%"
+        },
+        "vælgere": {
+          "total": "24"
+        }
+      },
+      "FORETAGER ALDRIG INDKØB": {
+        "procenter": {
+          "total": "0,0%"
+        },
+        "vælgere": {
+          "total": "0"
+        }
+      }
+    },
+    "HVAD ER DIN NUVÆRENDE CIVILSTAND ?": {
+      "BASE": {
+        "procenter": {
+          "total": "100,0%"
+        },
+        "vælgere": {
+          "total": "292"
+        }
+      },
+      "UGIFT": {
+        "procenter": {
+          "total": "15,7%"
+        },
+        "vælgere": {
+          "total": "46"
+        }
+      },
+      "GIFT": {
+        "procenter": {
+          "total": "39,4%"
+        },
+        "vælgere": {
+          "total": "115"
+        }
+      },
+      "SAMLEVENDE (PAPIRLØST)": {
+        "procenter": {
+          "total": "27,1%"
+        },
+        "vælgere": {
+          "total": "79"
+        }
+      },
+      "SKILT/SEPARERET/TIDL. SAMLEVENDE": {
+        "procenter": {
+          "total": "14,9%"
+        },
+        "vælgere": {
+          "total": "44"
+        }
+      },
+      "ENKE/ENKEMAND": {
+        "procenter": {
+          "total": "2,8%"
+        },
+        "vælgere": {
+          "total": "8"
+        }
+      }
+    }
+  }
+}
