@@ -10,7 +10,8 @@ angular.module "theDoubtersDirective", []
         mandates: 0
 
       # $http.get "/upload/tcarlsen/the-doubters/POLIT2015V1PROFILBERLEKSTRA_OKT16_NOV16.json"
-      $http.get "/upload/tcarlsen/the-doubters/POLIT2015V1PROFILBERLEKSTRA_APR17_JUN17.json"
+      # $http.get "/upload/tcarlsen/the-doubters/POLIT2015V1PROFILBERLEKSTRA_APR17_JUN17.json"
+      $http.get "/upload/tcarlsen/the-doubters/POLIT2015V1PROFILBERLEKSTRA_OKT17_DEC17.json"
         .then (response) ->
           scope.json = response.data
           scope.total.doubters = Math.round(response.data.Partier["Partivalg FV15 for tvivlere NU"].BASE["vælgere"].total / 1000) * 1000
