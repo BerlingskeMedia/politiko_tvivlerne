@@ -15,6 +15,7 @@ var
   changed = require('gulp-changed'),
   gulpif = require('gulp-if'),
   jade = require('gulp-jade'),
+  connect = require('gulp-connect'),
   plumber = require('gulp-plumber'),
   livereload = require('gulp-livereload'),
   serve = require('gulp-serve'),
@@ -108,6 +109,14 @@ gulp.task('watch', function () {
   gulp.watch('src/**/*.jade', ['dom']);
   gulp.watch('src/images/**', ['images']);
 });
+/* Server */
+gulp.task('connect', function () {
+  connect.server({
+    root: 'app',
+    port: 9000,
+    livereload: true
+  });
+});
 /* Build task */
 gulp.task('build', function () {
   if (process.argv.indexOf('--production') > -1){
@@ -123,7 +132,7 @@ gulp.task('build', function () {
   }
 });
 
-gulp.task('serve', serve({ root: ['app'], port: 9000 }));
+gulp.task('serve', ['connect']);
 
 /* Default task */
 gulp.task('default', ['scripts', 'styles', 'dom', 'images', 'watch', 'app', 'data', 'serve']);
